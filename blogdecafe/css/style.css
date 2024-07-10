@@ -266,3 +266,28 @@ img {
 .campo__field--textarea {
     height: 20rem;
 }
+
+
+.alert {
+    animation: fadeInOut 3s ease-in-out;
+}
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.send {
+    background-color: rgb(74, 185, 52);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
